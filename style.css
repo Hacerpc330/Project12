@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@im port url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 100%;
+    background: url(./img/fon_heder.jfif);
+    background-size: cover;
+}
+.conteiner {
+    width: 100%;
+    max-width: 1200px;
+
+}
+.header_iner {
+    width: 100%;
+}
+.top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid white;
+}
+.logo_iner a{
+    text-decoration: none;
+    font-size: 45px;
+    color: white;
+    transition: all 1s;
+    font-family: 'Lobster', cursive;
+}
+.menu_iner a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: white;
+    transition: all 0.7s;
+}
+.logo_iner a:hover {
+    color: cadetblue;
+}
+.menu_iner a:hover {
+    color: cadetblue;
+    border-bottom: 1px solid white;
+}
+.text_header {
+    width: 100%;
+    height: 92%;
+    text-align: center;
+    padding: 100px 0;
+}
+.text_header h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+}
+.text_header p {
+    color: white;
+    font-size: 29px;
+    font-family: 'Mochiy Pop One    ', cursive;
+}
+.header_knopka {
+    width: 100%;
+    height: 30%;
+    margin: 60px 0;
+}
+.knopka {
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 20px 60px;
+    background-color: rgba(226, 43, 144, 0.486);
+    transition: all 0.5s;
+}
+.knopka:hover{
+    background-color: rgb(115, 255, 0);
+    color: black;
+    -webkit-box-shadow: 12px -1px 18px 3px rgba(0,0,0,0.69); 
+    box-shadow: 12px -1px 18px 3px rgba(0,0,0,0.69);
+}
+.main_iner {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.main_text h1{
+    margin: 15px 0;
+    font-family: 'Mochiy Pop One', cursive;
+
+}
+.main_text div{
+    width: 10%;
+    margin: 40px auto;
+    text-align: center;
+}
+.main_text p{
+    margin: 15px 0;
+    font-family: 'Mochiy Pop One', cursive;
+
+}
+.liniya {
+    width: 100px;
+    height: 4px;
+    background-color: black;
+}
+.content {
+    width: 100%;
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mother {
+    width: 350px;
+    
+}
+.logo_main{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    line-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_main i {
+    font-size: 100px;
+    color: rgba(2, 0, 3, 0.747);
+    transition: all 0.5 s;
+}
+.text_main{
+    margin: 15px 0;
+}
+.text_main h2 {
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 35px;
+    font-family: 'Mochiy Pop One', cursive;
+}
+.text_main p {
+    color: black;
+    font-family: 'Mochiy Pop One', cursive;
+}
+.logo_main i:hover {
+    color: blue;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    background: url(./img/fon_heder.jfif);
+}
+.footer_iner {
+    width: 50%;
+    padding: 30px 0;
+}
+.box_footer {
+    display: flex;
+}
+.logo_footer i{
+    padding: 5px 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+.logo_footer i:hover {
+    color: rgb(3, 27, 241);
+}
